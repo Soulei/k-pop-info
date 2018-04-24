@@ -149,11 +149,11 @@ function update() {
             if(d.name != 'Kpop' && (/^Group.*/.test(d.name)) == false){
               d3.select("h1").html(d.name);
               d3.select("h2").html(d.alias);
-              d3.select("#origin").html("Origine : "+d.origin);
-              d3.select("#genres_str").html("Genre : "+d.genres_str);
-              d3.select("#labels").html("Labels : "+d.labels);
-              d3.select("#members_str").html("Membres : "+d.members_str);
-              d3.select("h3").html ("Je veux visiter la page de " + "<a href='" + d.link + "' >"  + d.name + " ⇢"+ "</a>" );
+              d3.select("#origin").html("Origine: "+d.origin);
+              d3.select("#genres_str").html("Genre: "+d.genres_str);
+              d3.select("#labels").html("Maison de disque: "+d.labels);
+              d3.select("#members_str").html("Membres: "+d.members_str);
+              d3.select("h3").html ("Visiter la page de " + "<a href='" + d.link + "' >"  + d.name + " ⇢"+ "</a>" );
             }
             else{
               d3.select("h1").html(d.name);
