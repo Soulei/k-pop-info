@@ -1,31 +1,10 @@
-<h1 align="center">K Pop Information System</h1>
+<h1 align="center">KPop Jjang!</h1>
 
 
-## Pre-requirements
+##Projet de base de donnée non traditionnelles - M1 Informatique UCN
 ---
 
-1. Install the docker-compose in order to launch MongoDB
-2. Launch MongoDB
-3. Install dependencies with npm install
-4. Install pip
+Représenter des données sur les  groupes de kpop avec d3.
 
-## Start the application 
+Choukri Souleiman Iman & Xiaoge Yan
 
-1. Verify the DB
-
-Before starting this Node services, we should first start our MongoDB Database, to achieve this:
-                
-> docker-compose up
-
-Then all the Data persistent will be saved to ./Mongodb-mount
-
-In a production mode, run docker-compose -d up letting the container run in background. 
-
-2. npm start 
-
-3. Add Datas: python import.py
-
-
-## Annexe 
-
-<a herf="./documents/api.md">API DOC</a>
